@@ -77,7 +77,7 @@ The app uses the Next.js App Router with route handlers to keep API logic coloca
 
 - Naive sentiment and keyword extraction are intentionally simple; a more robust NLP pipeline could improve accuracy.
 - Search currently supports keyword and sentiment; adding pagination and more filters (e.g., date range) would help at scale.
-- The modal is custom and light; adopting a11y-focused dialog (e.g., Radix) would improve accessibility.
+- The prompt engineering could be improved with better system messages and few-shot examples to get more accurate and consistent results.
 - Tests mock Supabase and OpenAI; adding integration and E2E tests (Playwright) would increase confidence.
 - No authentication/authorization included.
 - Not showing the previous chats if page refreshes
